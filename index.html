@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Year Seasons</title>
+</head>
+<body>
+    <main>
+        <section class="seasons-content">
+
+            <!-- IMAGEM -->
+            <aside class="season-image">
+                <img alt="Illustration representing the seasons" src="img/seasons.svg">
+            </aside>
+
+            <!-- TEXTO -->
+            <article class="seasons-text">
+
+                <!-- TITLE -->
+                <h1 class="title">Seasons</h1>
+
+                <!-- CONTAINER DAS ABAS -->
+                <div class="tab-interface">
+
+                    <!-- BOTÕES DAS ABAS -->
+                    <div class="tab-content" role="tablist" aria-label="Sample Tabs">
+
+                        <span 
+                        class="button active"
+                        role="button"
+                        aria-selected="true" aria-controls="panel-1"
+                        id="button-1" 
+                        tabindex="0"
+                        aria-label="Tab Button">
+                        All
+                        </span>
+
+                        <span
+                        class="button" 
+                        role="button"
+                        aria-selected="false"
+                        aria-controls="panel-2"
+                        id="button-2"
+                        tabindex="-1"
+                        aria-label="Tab Button">
+                        Spring
+                        </span>
+
+                        <span
+                        class="button"
+                        role="button"
+                        aria-selected="false"
+                        aria-controls="panel-3"
+                        id="button-3"
+                        tabindex="-1"
+                        aria-label="Tab Button">
+                        Summer
+                        </span>
+
+                        <span
+                        class="button"
+                        role="button"
+                        aria-selected="false"
+                        aria-controls="panel-4"
+                        id="button-4"
+                        tabindex="-1"
+                        aria-label="Tab Button">
+                        Autumn
+                        </span>
+
+                        <span
+                        class="button"
+                        role="button"
+                        aria-selected="false"
+                        aria-controls="panel-5"
+                        id="button-5"
+                        tabindex="-1"
+                        aria-label="Tab Button">
+                        Winter
+                        </span>
+
+                    </div>
+
+                    <!-- PAINÉIS -->
+                    <div
+                    class="season-content active"
+                    id="panel-1"
+                    role="tabpanel"
+                    tabindex="0"
+                    aria-hidden="false"
+                    aria-labelledby="button-1">
+                        <div class="description-area" aria-label="Season Description">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus soluta.</p>
+                        </div>
+                        <img class="season-img" alt="Spring image" src="img/primavera1.webp" width="150px">
+                        <img class="season-img" alt="Summer image" src="img/verao1.webp" width="150px">
+                        <img class="season-img" alt="Autumn image" src="img/outono1.webp" width="150px">
+                        <img class="season-img" alt="Winter image" src="img/inverno1.webp" width="150px">
+                    </div>
+
+                    <div
+                    class="season-content"
+                    id="panel-2"
+                    role="tabpanel"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    aria-labelledby="button-2">
+                        <div class="description-area" aria-label="Season Description">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus soluta.</p>
+                        </div>
+                        <img class="season-img" alt="Spring image" src="img/primavera1.webp" width="150px">
+                        <img class="season-img" alt="Spring image" src="img/primavera2.webp" width="150px">
+                        <img class="season-img" alt="Spring image" src="img/primavera3.webp" width="150px">
+                        <img class="season-img" alt="Spring image" src="img/primavera4.webp" width="150px">
+                    </div>
+
+                    <div
+                    class="season-content"
+                    id="panel-3"
+                    role="tabpanel"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    aria-labelledby="button-3">
+                        <div class="description-area" aria-label="Season Description">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus soluta.</p>
+                        </div>
+                        <img class="season-img" alt="Summer image" src="img/verao1.webp" width="150px">
+                        <img class="season-img" alt="Summer image" src="img/verao2.webp" width="150px">
+                        <img class="season-img" alt="Summer image" src="img/verao3.webp" width="150px">
+                        <img class="season-img" alt="Summer image" src="img/verao4.webp" width="150px">
+                    </div>
+
+                    <div
+                    class="season-content"
+                    id="panel-4"
+                    role="tabpanel"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    aria-labelledby="button-4">
+                        <div class="description-area" aria-label="Season Description">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus soluta.</p>
+                        </div>
+                        <img class="season-img" alt="Autumn image" src="img/outono1.webp" width="150px">
+                        <img class="season-img" alt="Autumn image" src="img/outono2.webp" width="150px">
+                        <img class="season-img" alt="Autumn image" src="img/outono3.webp" width="150px">
+                        <img class="season-img" alt="Autumn image" src="img/outono4.webp" width="150px">
+                    </div>
+
+                    <div
+                    class="season-content"
+                    id="panel-5"
+                    role="tabpanel"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    aria-labelledby="button-5">
+                        <div class="description-area" aria-label="Season Description">
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus soluta.</p>
+                        </div>
+                        <img class="season-img" alt="Winter image" src="img/inverno1.webp" width="150px">
+                        <img class="season-img" alt="Winter image" src="img/inverno2.webp" width="150px">
+                        <img class="season-img" alt="Winter image" src="img/inverno3.webp" width="150px">
+                        <img class="season-img" alt="Winter image" src="img/inverno4.webp" width="150px">
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
