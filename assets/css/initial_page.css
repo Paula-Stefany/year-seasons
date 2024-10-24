@@ -1,0 +1,149 @@
+:root{
+    --red: #B70414;
+    --font-header: "Poppins", sans-serif;
+    --font-description: "Hind", serif;
+    --white: #ffffff;
+    --black: #141414;
+    --gray: #666565;
+    --shadow: #d5d2d2;
+    --font-larger: 3.5rem;
+    --font-medium: 1.7rem;
+    --font-small: 1.5rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+/* MOBILE */
+
+html{
+    background: var(--white);
+}
+
+main{
+    height: 100vh;
+}
+
+.seasons-content{
+    height: 95%;
+}
+
+.season-image{
+    display: none;
+}
+
+.title{
+    width: fit-content;
+    margin: auto;
+    padding: 6rem 0;
+    color: var(--red);
+    font-size: var(--font-larger);
+    font-family: var(--font-header);
+    font-weight: 600;
+    height: 30%;
+}
+
+.tab-content{
+    flex-wrap: nowrap;
+    gap: 1.2rem;
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.tab-content::-webkit-scrollbar{
+    display: none;
+}
+
+.button:first-child{
+    margin-left: 1.2rem;
+}
+
+.button:last-child{
+    margin-right: 1.2rem;
+}
+
+.button{
+    width: 85px;
+    min-width: 85px;
+    background-color: var(--red);
+    border-radius: 3rem;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-family: var(--font-description);
+    font-weight: 500;
+    box-shadow: 1px 3px 7px var(--shadow);
+}
+
+.season-panel{
+    width: 90%;
+    margin: auto;
+    margin-top: 0rem;
+    padding: 3rem 0rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    outline: none;
+    border-radius: 2rem;
+}
+
+.season-panel{
+    display: none;
+}
+
+.season-panel.active{
+    display: flex;
+}
+
+.description-area{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.description{
+    font-size: var(--font-medium);
+    color: var(--gray);
+    font-family: var(--font-description);
+    font-weight: 500;
+}
+
+.panel-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0rem;
+    gap: 1rem;
+}
+
+.season-img{
+    width: 39%;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 15px var(--shadow);
+}
+
+.footer{
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+
+.area-author-description{
+    width: fit-content;
+    margin: auto;
+}
+
+.area-author-description p{
+    font-family: var(--font-description);
+    font-size: var(--font-small);
+    font-weight: 500;
+    color: var(--black)
+}
